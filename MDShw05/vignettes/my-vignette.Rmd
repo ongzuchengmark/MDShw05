@@ -1,0 +1,35 @@
+---
+title: "Using the delay_ann function in package MDShw05"
+author: "Zu Cheng Mark Ong"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+library(MDShw05)
+```
+
+### Using delay_ann function
+
+This vignette will provide some general advice on using the delay_ann function.
+
+The default variables in the function are set to "0" and 0 and so, the default output of the function is an announcement that says there is no train delay.
+
+```{r}
+delay_ann()
+```
+
+To announce a train delay, user can insert any of the 23 MTA lines in NYC, which are namely "1", "2", "3", "4", "5", "6", "7", "A", "B", "C", "D", "E", "F", "G", "J", "L", "M", "N", "Q", "R", "S", "Z", and "SIR", as the line_no variable and the number of minutes of expected train delay as the delay_time variable.
+
+```{r}
+delay_ann("6", 7)
+```
+
