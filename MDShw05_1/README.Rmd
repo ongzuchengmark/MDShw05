@@ -1,0 +1,28 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# MDShw05
+
+The goal of MDShw05 is to build your own R package. In my R package, I wrote a function that makes MTA subway delay announcements.
+
+## Example
+
+This is a basic example which shows you how to use the function delay_ann:
+
+```{r example}
+delay_ann()
+delay_ann("5", 5)
+```

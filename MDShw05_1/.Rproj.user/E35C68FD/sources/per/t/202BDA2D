@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1540097160813.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4155158672",
+    "id" : "202BDA2D",
+    "lastKnownWriteTime" : 1540077929,
+    "last_content_update" : 1540077929,
+    "path" : "~/Documents/GitHub/ong_zuchengmark/hw05/MDShw05/R/delay_ann.R",
+    "project_path" : "R/delay_ann.R",
+    "properties" : {
+        "cursorPosition" : "7,12",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
